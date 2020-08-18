@@ -1,0 +1,229 @@
+#login {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+		
+}
+
+#login {
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-size: 16px;
+	color:cyan;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 300ms;
+	text-align:center;
+        border:2px solid black;
+	font-color:cyan;
+	background:#ffffff url("https://enjoycss.com/webshots/hy_1.png");
+}
+#login {
+    box-shadow: 0px 5px #389cb5, 0px 10px 10px rgba(0,0,0,0.25);
+	z-index: -1;
+	width:100%;
+	height:3%;
+}
+
+#login:hover {
+	transform: translateY(5px);
+	box-shadow: 0px 0px transparent, 0px 5px 10px rgba(0,0,0,0.25);
+	border:2px solid black;
+	transition: 0.3s;
+}
+
+#login:focus {
+	outline: none;
+	
+}
+
+.open-form{
+float:right;
+color:white;
+margin-right:1%;
+font-size:25px;
+}
+
+.open-form:hover{
+color:cyan;
+transition: 0.3s;
+}
+
+#tbl{
+float:right;
+background: darkcyan;
+color:white;
+}
+
+#show th, #show td{
+padding: 13px;
+}
+
+#show{
+float:right;
+margin-top:1%;
+margin-left:70%;
+}
+
+
+#btna td input{
+width: 100%;
+}
+
+.mainform {
+  display: none;
+  width: 800px;
+  height:500px;
+  top: 15%;
+  left: 50%;
+  margin-left:30%;
+  padding: 10px 0 20px;
+  border: 3px solid black;
+  text-align: center;
+  background: #ffffff url("https://enjoycss.com/webshots/hy_1.png");
+  border-radius:20px;
+}
+
+#show{
+  background: cadetblue;
+  border-color: black;
+  margin-right:13%;
+}
+
+#tbl{
+  border-color: black;
+  margin-right:31.6%;
+}
+
+.mainform-show {
+  display: block;
+  animation: login-open 1s ease;
+}
+
+.close-form {
+  display: block;
+  margin: 10px 0;
+  color:red;
+  font-size:20px;
+
+}
+
+
+.login-popup-error {
+  animation: login-error 0.4s ease;
+}
+
+@keyframes login-open{
+  0%{transform: translateY(-500px);}
+  70%{transform: translateY(15px);}
+  90%{transform: translateY(-25px);}
+  100%{transform: translateY(0px);}
+}
+
+
+
+@keyframes login-error{
+  0%, 100% {transform: translateX(0px);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(10px);}
+  20%, 40%, 60%, 80% {transform: translateX(-10px);}
+}
+
+.green{
+ background: -webkit-linear-gradient(teal, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder; 
+ margin-right:50%;
+  font-size:50px;
+}
+
+.text-container {
+margin-right:2.8%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.animated-text {
+   font-size:45px;
+  animation-name: text;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  margin: 0px 5px;
+  font-weight: var(--weight-bold);
+}
+
+@keyframes text {
+  0% {
+    transform: translateX(0vh) rotateX(0deg) scale3d(1.25,1.25,1.25) translateZ(100vh);
+  }
+  100% {
+    transform: translateX(0) rotateX(0deg) translateZ(0) scale3d(1,1,1);
+  }
+}
+
+.animated-text:nth-of-type(1) {
+  animation-delay: 200ms;
+}
+
+.animated-text:nth-of-type(2) {
+  animation-delay: 300ms;
+}
+
+.animated-text:nth-of-type(3) {
+  animation-delay: 400ms;
+}
+
+.animated-text:nth-of-type(4) {
+  animation-delay: 500ms;
+}
+
+.animated-text:nth-of-type(5) {
+  animation-delay: 600ms;
+}
+
+.animated-text:nth-of-type(6) {
+  animation-delay: 700ms;
+}
+
+.animated-text:nth-of-type(7) {
+  animation-delay: 800ms;
+}
+
+.animated-text:nth-of-type(8) {
+  animation-delay: 900ms;
+}
+
+.animated-text:nth-of-type(9) {
+  animation-delay: 1000ms;
+}
+
+.animated-text:nth-of-type(10) {
+  animation-delay: 1100ms;
+}
+
+.animated-text:nth-of-type(11) {
+  animation-delay: 1200ms;
+}
+
+.animated-text:nth-of-type(12) {
+  animation-delay: 1300ms;
+}
+
+#border6{
+text-decoration:none;
+font-size:27px;
+margin-bottom:1%;
+color:cyan;
+}
